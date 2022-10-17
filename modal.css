@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    
+}
+
+body {
+
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+margin: 0px;
+background-image: linear-gradient(to right, #e66465, #9198e5);
+
+}
+
+.firstt { 
+
+    border-radius: 9px;
+    border-color: white;
+    padding: 5px ;
+    height: 3rem;
+    width: 7rem;
+}
+
+
+
+.modal {
+
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    border: solid black;
+    border-radius: 8px;
+    margin: 0px;
+    width: 600px;
+    max-width: 70%;
+    text-align: center;
+    word-spacing: 0.2rem;
+    line-height: 1rem;
+    padding: 1rem;
+   opacity: 0;
+}
+ 
+
+.top {
+
+    color: white;
+}  
+
+.definition {
+
+    color: white;
+    text-align: left;
+
+}
+
+.close {
+    margin-top: 0.5rem;
+    border-radius: 6px ;
+    border:  white;
+    padding: 4px;
+}
